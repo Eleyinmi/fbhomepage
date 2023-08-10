@@ -544,6 +544,12 @@ video {
   }
 }
 
+@media (min-width: 700px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -600,6 +606,10 @@ video {
   position: relative;
 }
 
+.bottom-11 {
+  bottom: 2.75rem;
+}
+
 .left-auto {
   left: auto;
 }
@@ -614,22 +624,6 @@ video {
 
 .top-16 {
   top: 4rem;
-}
-
-.bottom-16 {
-  bottom: 4rem;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.bottom-14 {
-  bottom: 3.5rem;
-}
-
-.bottom-11 {
-  bottom: 2.75rem;
 }
 
 .z-50 {
@@ -897,6 +891,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1060,30 +1059,45 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:bottom-16 {
-    bottom: 4rem;
-  }
-
   .sm\:bottom-14 {
     bottom: 3.5rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .medi\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .medi\:flex {
+    display: flex;
+  }
+
+  .medi\:w-0 {
+    width: 0px;
+  }
+
+  .medi\:w-3\/4 {
+    width: 75%;
+  }
+
+  .medi\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .medi\:items-center {
+    align-items: center;
+  }
+
+  .medi\:justify-center {
+    justify-content: center;
   }
 }
 
 @media (min-width: 768px) {
   .md\:fixed {
     position: fixed;
-  }
-
-  .md\:bottom-7 {
-    bottom: 1.75rem;
-  }
-
-  .md\:bottom-9 {
-    bottom: 2.25rem;
-  }
-
-  .md\:bottom-12 {
-    bottom: 3rem;
   }
 
   .md\:bottom-16 {
@@ -1125,16 +1139,12 @@ video {
 }
 
 @media (min-width: 900px) {
-  .smallbig\:left-16 {
-    left: 4rem;
-  }
-
-  .smallbig\:bottom-12 {
-    bottom: 3rem;
-  }
-
   .smallbig\:bottom-8 {
     bottom: 2rem;
+  }
+
+  .smallbig\:left-16 {
+    left: 4rem;
   }
 
   .smallbig\:block {
@@ -1147,6 +1157,10 @@ video {
 
   .smallbig\:w-1\/2 {
     width: 50%;
+  }
+
+  .smallbig\:w-full {
+    width: 100%;
   }
 }
 
@@ -1173,10 +1187,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:bottom-12 {
-    bottom: 3rem;
-  }
-
   .xl\:bottom-9 {
     bottom: 2.25rem;
   }
@@ -1207,14 +1217,6 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .\32xl\:bottom-10 {
-    bottom: 2.5rem;
-  }
-
   .\32xl\:bottom-12 {
     bottom: 3rem;
   }

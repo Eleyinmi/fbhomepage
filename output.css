@@ -626,8 +626,8 @@ video {
   top: 4rem;
 }
 
-.top-6 {
-  top: 1.5rem;
+.top-9 {
+  top: 2.25rem;
 }
 
 .z-50 {
@@ -659,11 +659,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -685,8 +680,16 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .flex {
@@ -939,6 +942,10 @@ video {
 
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .pt-5 {
